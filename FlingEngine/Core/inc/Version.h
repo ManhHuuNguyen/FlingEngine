@@ -1,5 +1,5 @@
 #pragma once
-#include "pch.h"
+
 #include "GitVersion.h"
 
 namespace Fling

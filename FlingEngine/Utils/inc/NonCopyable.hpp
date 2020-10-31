@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Platform.h"	// FLING_API def
+#include "Platform/Platform.h"	// FLING_API def
 
 namespace Fling
 {

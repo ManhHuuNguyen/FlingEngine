@@ -41,7 +41,7 @@
 #	define INLINE			        inline
 #	define FORCEINLINE		        __forceinline
 
-#include "FlingWindowsExports.h"
+#include "Platform/FlingWindowsExports.h"
 
 #include "DesktopWindow.h"
 

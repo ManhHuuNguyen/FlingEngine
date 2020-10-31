@@ -4,7 +4,7 @@
 #include <cstddef>		//std::ptrdiff_t
 #include <assert.h>
 
-#include "FlingExports.h"
+#include "Platform/FlingExports.h"
 
 namespace Fling
 {

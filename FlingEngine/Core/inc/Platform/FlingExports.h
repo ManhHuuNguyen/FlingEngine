@@ -9,7 +9,7 @@
 #define FLING_WINDOWS		1	
 #define FLING_LINUX			0
 
-#include "FlingWindowsExports.h"
+#include "Platform/FlingWindowsExports.h"
 
 #elif __APPLE__							
 
@@ -25,7 +25,7 @@
 #define FLING_WINDOWS		0	
 #define FLING_LINUX			1
 
-#include "FlingLinuxExports.h"
+#include "Platform/FlingLinuxExports.h"
 
 #else									
 

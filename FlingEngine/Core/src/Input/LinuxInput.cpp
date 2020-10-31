@@ -8,7 +8,7 @@
 // #TODO: Figure something else that's better for this
 #include "VulkanApp.h"
 #include <GLFW/glfw3.h>
-#include "ImGuiInputBinding.hpp"
+#include "Platform/ImGuiInputBinding.hpp"
 
 namespace Fling
 {

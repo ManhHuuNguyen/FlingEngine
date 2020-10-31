@@ -17,7 +17,7 @@
 #	define INLINE			inline
 #	define FORCEINLINE		inline __attribute__ ((always_inline))
 
-#include "FlingLinuxExports.h"
+#include "Platform/FlingLinuxExports.h"
 #include "DesktopWindow.h"
 
 #include "Input/LinuxKeycodes.h"

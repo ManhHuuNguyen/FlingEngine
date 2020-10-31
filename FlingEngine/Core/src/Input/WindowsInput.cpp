@@ -8,7 +8,7 @@
 // Glfw -------------------
 #include <GLFW/glfw3.h>
 #include "DesktopWindow.h"
-#include "ImGuiInputBinding.hpp"
+#include "Platform/ImGuiInputBinding.hpp"
 
 namespace Fling
 {
