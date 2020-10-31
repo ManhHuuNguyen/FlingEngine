@@ -21,10 +21,14 @@ set ( LINK_LIBS
 	"FlingEngine"
 )
 
+# Link any modules here!
+# TODO Figure a way to go through all the module names, maybe add a module variable
+# or something like that? But then other modules wouldn't be able to do it...
+set( LINK_LIBS ${LINK_LIBS} TestModule )
+
 # link pthread if we need to
 if ( NOT WIN32 )
     set( LINK_LIBS ${LINK_LIBS} pthread )
-    message( STATUS "Added pthread!" )
 endif()
 
 ################# Complier Options ############

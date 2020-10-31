@@ -124,6 +124,9 @@ include_directories( external/stb )
 include_directories( external/tinyobjloader )
 include_directories( external/cereal/include )
 
+# Add any module subdirectories here so that any Fling program can link against them
+add_subdirectory ( "Modules" )
+
 # Add the engine and tests
 add_subdirectory ( "FlingEngine" )
 add_subdirectory ( "FlingTests" )

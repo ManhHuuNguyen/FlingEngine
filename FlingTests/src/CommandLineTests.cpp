@@ -1,5 +1,6 @@
 #include "catch2/catch.hpp"
 #include "Misc/CommandLine.h"
+#include "Test.h"
 
 TEST_CASE("Command Line", "[Command Line]")
 {
@@ -32,5 +33,10 @@ TEST_CASE("Command Line", "[Command Line]")
 
 		const bool bHasFlag = CommandLine::HasParam("test");
 		REQUIRE(bHasFlag);
+	}
+
+	SECTION("WHY tho")
+	{
+		REQUIRE(TestStruct::Foo() == 5.5f);
 	}
 }

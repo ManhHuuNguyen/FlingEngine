@@ -78,7 +78,6 @@ endif()
 # link pthread if we need to
 if ( NOT WIN32 )
     set( LINK_LIBS ${LINK_LIBS} pthread )
-    message( STATUS "Added pthread!" )
 endif()
 
 # we need to link filesystem on GCC 8+
@@ -95,7 +94,7 @@ elseif ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
     message( STATUS "Added filesytem link (GNU)!" )
 endif()
 
-message( STATUS "LINK_LIBS is : " ${LINK_LIBS} )
+message( STATUS "${PROJECT_NAME} LINK_LIBS is : " ${LINK_LIBS} )
 
 ################# Complier Options ############
 if( MSVC )

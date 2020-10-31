@@ -26,10 +26,9 @@ set ( LINK_LIBS
 # link pthread if we need to
 if ( NOT WIN32 )
     set( LINK_LIBS ${LINK_LIBS} pthread )
-    message( STATUS "Added pthread!" )
 endif()
 
-message( STATUS "LINK_LIBS is : " ${LINK_LIBS} )
+message( STATUS "${PROJECT_NAME} LINK_LIBS is : " ${LINK_LIBS} )
 
 ################# Complier Options #################
 if( MSVC )
